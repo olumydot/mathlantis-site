@@ -4,27 +4,37 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mathonauts — Privacy Policy</title>
-<meta name="description" content="Mathonauts collects no data. Everything stays on the device.">
+<meta name="description" content="Mathonauts has no accounts and collects nothing. Progress stays on the device unless a parent moves it, and then it travels encrypted.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>Privacy Policy</h1>
-    <p class="tagline">Mathonauts · last updated 5 October 2026</p>
+    <p class="tagline">Mathonauts · last updated 9 November 2026</p>
     <nav><a href="index.html">Support</a> · <a href="privacy.html">Privacy</a></nav>
   </header>
 
   <div class="card">
-    <p><strong>Mathonauts does not collect, transmit, share or sell any personal information.</strong>
-       It has no servers. Nothing you or your child does in the app leaves the device.</p>
+    <p><strong>Mathonauts has no accounts and collects nothing about you or your child.</strong>
+       Everything stays on the device, unless a grown-up chooses to move progress to another
+       device — and even then it leaves encrypted, and we cannot read it.</p>
     <ul>
       <li><strong>No accounts.</strong> There is no sign-up, email address or password.</li>
-      <li><strong>On the device only.</strong> Explorer names, PINs, progress, outfits and settings are saved in the app's own storage on your device. PINs are stored only as a salted one-way fingerprint (SHA-256), never as the digits themselves.</li>
-      <li><strong>No network use.</strong> The app makes no internet connections. There are no ads, no analytics, no tracking, and no third-party SDKs.</li>
+      <li><strong>On the device.</strong> Explorer names, PINs, progress, outfits and settings are saved in the app's own storage on your device. PINs are stored only as a salted one-way fingerprint (SHA-256), never as the digits themselves.</li>
+      <li><strong>No ads, analytics or tracking.</strong> There are no third-party SDKs, no advertising identifiers, and nothing measuring what your child does.</li>
       <li><strong>No purchases.</strong> There are no in-app purchases. Gems are earned by learning and cannot be bought.</li>
-      <li><strong>Deleting data.</strong> A grown-up can remove any explorer in the PIN-protected Parent Zone. Deleting the app deletes all of its data.</li>
-      <li><strong>Children.</strong> The app is made for children and collects nothing from them, in line with COPPA and GDPR-K. Because no data is collected, there is nothing to request, correct or export.</li>
+      <li><strong>Moving progress between devices — optional, and only a grown-up can start it.</strong>
+          In the PIN-protected Parent Zone you can create a ten-character recovery code. The app
+          encrypts the save on your device (AES-256-GCM, under a key stretched from the code with
+          PBKDF2) and stores it with our hosting provider, Supabase, under a name that is a one-way
+          hash of the code. <strong>The code itself is never sent.</strong> What is stored is a
+          meaningless identifier and a block of ciphertext — we cannot read it, and neither can the
+          host. Typing the same code into the other device brings the progress across. If you never
+          open that screen, the app makes no internet connections at all.</li>
+      <li><strong>What a backup holds.</strong> The same things the app keeps on the device: explorer names, progress, badges, outfits, settings and the PIN fingerprint. No email address, no phone number, no location, no device or advertising identifier.</li>
+      <li><strong>Deleting data.</strong> <em>Delete backup</em>, on that same screen, erases the stored copy for good. Removing an explorer in the Parent Zone deletes that child's progress on the device. Deleting the app deletes everything it holds. A backup that nobody has saved to for a year is deleted automatically.</li>
+      <li><strong>Children.</strong> The app is made for children, shows no advertising and collects nothing for profiling, in line with COPPA and GDPR-K. The only thing that ever leaves the device is a backup a parent has asked for.</li>
     </ul>
     <p class="muted">Questions about this policy: <a href="mailto:olutaiwo.oni@gmail.com">olutaiwo.oni@gmail.com</a></p>
   </div>
