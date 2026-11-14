@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mathonauts — Delete your data</title>
+<meta name="description" content="How to delete a Mathonauts backup, what is deleted, and what is kept.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Delete your data</h1>
+    <p class="tagline">Mathonauts, by Olumide Oni · last updated 14 November 2026</p>
+    <nav><a href="index.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="delete-data.html">Delete data</a></nav>
+  </header>
+
+  <div class="card">
+    <p><strong>Mathonauts has no accounts, so there is no account to delete.</strong>
+       Everything the app knows lives on your own device. The one exception is a backup,
+       which a grown-up can create to move progress to another device. This page is about
+       deleting that backup.</p>
+
+    <h2>Delete it from inside the app</h2>
+    <p>This is the quickest way and it takes effect immediately.</p>
+    <ul>
+      <li>Open <strong>Mathonauts</strong>.</li>
+      <li>Go to the <strong>Parent Zone</strong> and enter your parent PIN.</li>
+      <li>Tap <strong>Move progress to another device</strong>.</li>
+      <li>Tap <strong>Delete backup</strong>, and confirm.</li>
+    </ul>
+    <p>The stored copy is erased straight away. Nothing is kept behind, and no copy is
+       archived.</p>
+
+    <h2>Ask us to delete it instead</h2>
+    <p>If you no longer have the app installed, or you would rather we did it, email
+       <a href="mailto:olutaiwo.oni@gmail.com">olutaiwo.oni@gmail.com</a> with the subject
+       <strong>Delete my Mathonauts backup</strong> and include your ten-character recovery
+       code. We will delete it and reply to confirm, normally within 7 days and at most
+       within 30.</p>
+    <p>We need the code because it is the only thing that identifies a backup — there is no
+       name, email address or account attached to one. Without it we have no way to tell
+       which stored block is yours. If you have lost the code, the backup cannot be
+       identified, read or recovered by anyone, including us, and it will be deleted
+       automatically as described below.</p>
+
+    <h2>What is deleted</h2>
+    <p>The whole backup, which is the encrypted copy of what the app holds:</p>
+    <ul>
+      <li>Explorer names</li>
+      <li>Lesson progress, stars, XP, levels, badges and mistake history</li>
+      <li>Gems, outfits and items bought in the shop</li>
+      <li>App settings, and the one-way fingerprint of each profile's PIN</li>
+    </ul>
+    <p>All of it is stored as a single block of AES-256-GCM ciphertext under an identifier
+       that is a one-way hash of your recovery code. We cannot read any of it.</p>
+
+    <h2>What is kept, and for how long</h2>
+    <ul>
+      <li><strong>Nothing is kept after deletion.</strong> There is no retention period,
+          no grace period and no backup of the backup.</li>
+      <li><strong>Automatic deletion.</strong> Any backup that has not been written to for
+          <strong>one year</strong> is deleted automatically, whether or not you ask.</li>
+      <li><strong>On your device.</strong> Deleting a backup does not touch the app on your
+          device. To remove that too: delete an explorer in the Parent Zone to erase one
+          child's progress, or uninstall the app to remove everything it holds. Neither is
+          recoverable.</li>
+    </ul>
+    <p class="muted">We never collected an email address, phone number, location, device
+       identifier or advertising identifier, so there is none to delete. See the
+       <a href="privacy.html">Privacy Policy</a> for the full picture.</p>
+  </div>
+
+  <footer>© 2026 Mathonauts · <a href="index.html">Support</a> · <a href="privacy.html">Privacy Policy</a></footer>
+</div>
+</body>
+</html>
